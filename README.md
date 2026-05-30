@@ -43,23 +43,16 @@ I build things that ship. Production backends, autonomous agents, and systems wi
 
 | Project | What it does | Stack |
 |---------|--------------|-------|
-| [**Orux**](https://orux.space) · `live` | Real-time collaborative code editor for dev teams. Semantic impact analysis across Python, JS/TS, Go & Rust. Ownership system, collision prevention, inline tentative edits, Git integration, Stripe freemium. 478 backend tests. | Python · WebSockets · PostgreSQL · React · Docker · Stripe |
-| [**FerreStock**](https://github.com/CesarManzoCode/ferrestock) | Multi-tenant SaaS for hardware store inventory management. JWT access + refresh tokens, Alembic migrations, PDF quote generation, superadmin panel. Docker + Nginx for prod. | FastAPI · SQLModel · PostgreSQL · React · Docker |
-| [**HiperForge**](https://github.com/CesarManzoCode/HiperForge) | Terminal AI agent — plans, writes, and ships code autonomously. | Python · LLMs · CLI |
-| [**sentinel-agent**](https://github.com/CesarManzoCode/sentinel-agent) | Local-first AI agent for safe, auditable system operations. | Python · Anthropic |
-| [**Studymation**](https://github.com/CesarManzoCode/Studymation) | SaaS for academic document generation with university templates + AI. | Python · FastAPI · LLMs |
-| [**AutoSchool**](https://github.com/CesarManzoCode/AutoSchool) | AI automation monorepo for Moodle & Google Classroom. | Python · Automation |
+| [**Orux**](https://orux.space) `live` | Real-time collaborative code editor for dev teams. Semantic impact analysis across Python, JS/TS, Go & Rust via tree-sitter + LSP. Ownership system, collision prevention, inline tentative edits, Git integration, Stripe freemium. 478 backend tests. Hexagonal architecture. | Python · WebSockets · PostgreSQL · React · Stripe · Docker |
+| [**FerreStock**](https://github.com/CesarManzoCode/ferrestock) | Multi-tenant SaaS for hardware store inventory management. JWT access + refresh tokens, Alembic migrations, PDF quote generation, superadmin panel. Separate Docker Compose for dev and prod. | FastAPI · SQLModel · PostgreSQL · React · Nginx · Docker |
+| [**Studymation**](https://github.com/CesarManzoCode/Studymation) | SaaS for academic document generation with university templates. LLM pipeline (OpenAI / DeepSeek), Stripe payments, DigitalOcean Spaces for storage, CI/CD. 60+ Make commands. | FastAPI · Next.js 15 · PostgreSQL · Stripe · Docker |
+| [**HiperForge**](https://github.com/CesarManzoCode/HiperForge) | Terminal AI agent that interprets natural language, plans, and executes real dev tasks — shell, git, file ops, web. ReAct loop. Multi-provider: Anthropic, OpenAI, Groq, Ollama. | Python · ReAct · Multi-LLM |
+| [**sentinel-agent**](https://github.com/CesarManzoCode/sentinel-agent) | Local-first AI agent for safe system operations. Policy-gated tool invocation, Groq inference, local SQLite + semantic indexing, auditable execution. Hexagonal architecture. | Python · Groq · SQLite |
+| [**cotizador-ia-ferreteria**](https://github.com/CesarManzoCode/cotizador-ia-ferreteria) | AI quotation system for hardware stores. Natural language → LLM extraction → fuzzy match against Excel catalog → downloadable quote file. | FastAPI · Groq · React |
 
 ---
 
 ## Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=CesarManzoCode&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CesarManzoCode&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="165" />
-
-</div>
 
 <div align="center">
 
@@ -69,7 +62,7 @@ I build things that ship. Production backends, autonomous agents, and systems wi
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=CesarManzoCode&theme=github-compact&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![trophy](https://github-profile-trophy.vercel.app/?username=CesarManzoCode&theme=darkhub&no-frame=true&row=1&column=7&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
