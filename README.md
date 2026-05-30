@@ -1,102 +1,75 @@
-👋 Hi, I'm César Manzo
+<div align="center">
 
-💻 Software Developer focused on building real-world systems, AI tools, and developer-first products.
+# César Manzo
 
-I design and develop projects that go beyond tutorials — systems with architecture, purpose, and execution.
+**Backend · AI Agents · Automation · SaaS**
 
----
+Python developer building autonomous systems, production APIs, and AI-powered pipelines.
 
-🚀 About Me
-
-- 🧠 Interested in: AI Agents, Backend Systems, Developer Tools
-- 🛠️ Focused on: Building complete, production-style projects
-- ⚡ Philosophy: Build things that actually solve problems
-- 📈 Always improving in: architecture, system design, and scalability
+</div>
 
 ---
 
-🧩 What I Build
+## Stack
 
-- 🤖 AI-powered systems and agents
-- ⚙️ Backend architectures (APIs, automation, workflows)
-- 🧠 Intelligent tools for real-world use cases
-- 🖥️ Full-stack applications with clear product vision
+<div align="center">
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-🔥 Featured Projects
-
-🧠 StudyFlow
-
-AI-powered system that transforms academic tasks into clear execution plans.
-→ Helps users go from "I don’t know where to start" to action in minutes.
-
----
-
-🤖 HiperForge
-
-Terminal-based AI agent that plans, executes, and ships code autonomously.
+</div>
 
 ---
 
-🛡️ Sentinel Agent
+## What I Build
 
-Local-first AI agent focused on safe system operations and developer workflows.
+**AI Agents & Pipelines** — Systems that plan, act, and iterate autonomously. Not wrappers, actual agents with memory, tools, and execution loops.
 
----
+**SaaS Backends** — Full production stacks: REST APIs, auth, DB schemas, billing logic. Deployed, not demo'd.
 
-📊 RevenuePulse AI
+**Automation** — End-to-end pipelines that replace manual work at scale.
 
-Full-stack system that simulates a real B2B SaaS sales automation platform with analytics and AI.
-
----
-
-🧾 AI Quotation System
-
-Generates structured quotes from natural language using LLMs and data matching.
+**Clean Architecture** — Hexagonal, domain-driven. The kind of codebase that doesn't collapse under its own weight.
 
 ---
 
-🛠️ Tech Stack
+## Projects
 
-Languages
-
-- Python
-- TypeScript / JavaScript
-
-Backend & Systems
-
-- FastAPI
-- Node.js
-- SQLAlchemy
-- PostgreSQL / SQLite
-
-AI / Data
-
-- LLM integrations (Groq, Anthropic)
-- Automation pipelines
-- Data processing (Pandas / NumPy)
-
-Tools
-
-- Docker
-- Git
-- Linux environments
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [**HiperForge**](https://github.com/CesarManzoCode/HiperForge) | Terminal AI agent — plans, writes, and ships code autonomously | Python · LLMs · CLI |
+| [**RevenuePulse AI**](https://github.com/CesarManzoCode/RevenuePulse-AI) | B2B SaaS with sales automation, analytics dashboard, and AI insights | FastAPI · PostgreSQL · Supabase |
+| [**StudyFlow**](https://github.com/CesarManzoCode/StudyFlow) | Turns academic goals into structured execution plans using LLMs | Python · Anthropic API |
+| [**Sentinel Agent**](https://github.com/CesarManzoCode/SentinelAgent) | Local-first AI agent for safe, auditable system operations | Python · LLMs · Linux |
+| [**AI Quotation System**](https://github.com/CesarManzoCode/AI-Quotation-System) | Generates structured business quotes from natural language | FastAPI · Groq · SQLAlchemy |
 
 ---
 
-📈 Current Focus
+## Stats
 
-- Building autonomous AI systems
-- Designing clean, scalable architectures
-- Creating projects that look and feel like real products, not demos
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=CesarManzoCode&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CesarManzoCode&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
+
+</div>
+
+<div align="center">
+
+![GitHub Streak](https://streak-stats.demolab.com?user=CesarManzoCode&theme=github-dark&hide_border=true)
+
+</div>
 
 ---
 
-📫 Contact
+<div align="center">
 
-- GitHub: https://github.com/CesarManzoCode
+The code is the resume.
 
----
-
-⭐ If you're into AI, systems, or developer tools — you'll probably like what I'm building.
+</div>
