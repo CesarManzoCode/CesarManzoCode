@@ -2,9 +2,9 @@
 
 # César Manzo
 
-**Backend · Real-time Systems · AI Agents · SaaS**
+**Backend · Sistemas en tiempo real · Agentes de IA · SaaS**
 
-I build things that ship. Production backends, autonomous agents, and systems with real architecture — not demos.
+Construyo productos reales con arquitectura sólida: backends en producción, agentes autónomos y plataformas SaaS enfocadas en ejecución, negocio y escala.
 
 </div>
 
@@ -15,44 +15,55 @@ I build things that ship. Production backends, autonomous agents, and systems wi
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 </div>
 
 ---
 
-## What I Build
+## Perfil
 
-**Real-time systems** — WebSocket servers with shared state, conflict prevention, and live presence across multiple clients and teams.
+Soy desarrollador enfocado en **backend, arquitectura limpia y sistemas de IA aplicados a producto**. Me especializo en construir soluciones completas de extremo a extremo: diseño técnico, implementación, pruebas, despliegue y evolución continua.
 
-**SaaS backends** — Multi-tenant architectures with JWT auth, Alembic migrations, role separation, and production Docker deploys.
+Mi enfoque combina:
 
-**AI Agents** — Autonomous systems with memory, tools, and execution loops. Built to run, not to demo.
-
-**Clean Architecture** — Hexagonal, ports & adapters, domain-driven. The kind that doesn't fall apart when it grows.
-
----
-
-## Projects
-
-| Project | What it does | Stack |
-|---------|--------------|-------|
-| [**Orux**](https://orux.space) `live` | Real-time collaborative code editor for dev teams. Semantic impact analysis across Python, JS/TS, Go & Rust via tree-sitter + LSP. Ownership system, collision prevention, inline tentative edits, Git integration, Stripe freemium. 478 backend tests. Hexagonal architecture. | Python · WebSockets · PostgreSQL · React · Stripe · Docker |
-| [**FerreStock**](https://github.com/CesarManzoCode/ferrestock) | Multi-tenant SaaS for hardware store inventory management. JWT access + refresh tokens, Alembic migrations, PDF quote generation, superadmin panel. Separate Docker Compose for dev and prod. | FastAPI · SQLModel · PostgreSQL · React · Nginx · Docker |
-| [**Studymation**](https://github.com/CesarManzoCode/Studymation) | SaaS for academic document generation with university templates. LLM pipeline (OpenAI / DeepSeek), Stripe payments, DigitalOcean Spaces for storage, CI/CD. 60+ Make commands. | FastAPI · Next.js 15 · PostgreSQL · Stripe · Docker |
-| [**HiperForge**](https://github.com/CesarManzoCode/HiperForge) | Terminal AI agent that interprets natural language, plans, and executes real dev tasks — shell, git, file ops, web. ReAct loop. Multi-provider: Anthropic, OpenAI, Groq, Ollama. | Python · ReAct · Multi-LLM |
-| [**sentinel-agent**](https://github.com/CesarManzoCode/sentinel-agent) | Local-first AI agent for safe system operations. Policy-gated tool invocation, Groq inference, local SQLite + semantic indexing, auditable execution. Hexagonal architecture. | Python · Groq · SQLite |
-| [**cotizador-ia-ferreteria**](https://github.com/CesarManzoCode/cotizador-ia-ferreteria) | AI quotation system for hardware stores. Natural language → LLM extraction → fuzzy match against Excel catalog → downloadable quote file. | FastAPI · Groq · React |
+- **Arquitectura mantenible** (hexagonal, puertos y adaptadores, DDD)
+- **Sistemas concurrentes en tiempo real** (WebSockets, sincronización multiusuario)
+- **Ingeniería aplicada a negocio** (SaaS multi-tenant, pagos, roles, observabilidad)
+- **Agentes de IA útiles** (tool use, memoria, ejecución autónoma con control)
 
 ---
 
-## Activity
+## Proyectos destacados
+
+| Proyecto | Impacto | Stack |
+|---------|---------|-------|
+| [**Orux**](https://github.com/CesarManzoCode) `open source` | Editor colaborativo en tiempo real para equipos dev con análisis semántico multi-lenguaje (Python, JS/TS, Go, Rust), prevención de colisiones, ownership por archivo, integración Git y modelo freemium con Stripe. **Ya no está en producción**; el código permanece abierto como referencia técnica de arquitectura y ejecución. | Python · WebSockets · PostgreSQL · React · Stripe · Docker |
+| [**Studymation**](https://github.com/CesarManzoCode/Studymation) | SaaS para generación de documentos académicos con plantillas universitarias, pipeline LLM, pagos y almacenamiento en la nube. Proyecto orientado a producto real y automatización documental. | FastAPI · Next.js 15 · PostgreSQL · Stripe · Docker |
+| [**FerreStock**](https://github.com/CesarManzoCode/ferrestock) | SaaS multi-tenant para inventario ferretero con JWT access/refresh, migraciones, cotización PDF y separación de entornos dev/prod con Docker Compose. | FastAPI · SQLModel · PostgreSQL · React · Nginx · Docker |
+| [**HiperForge**](https://github.com/CesarManzoCode/HiperForge) | Agente de IA en terminal que interpreta lenguaje natural, planifica y ejecuta tareas reales de desarrollo (shell, git, archivos, web) con loop ReAct y múltiples proveedores LLM. | Python · ReAct · Multi-LLM |
+| [**sentinel-agent**](https://github.com/CesarManzoCode/sentinel-agent) | Agente local-first para operaciones seguras del sistema, con políticas de ejecución, auditoría, base local y enfoque en confiabilidad operacional. | Python · Groq · SQLite |
+| [**thalyx**](https://github.com/CesarManzoCode/thalyx) | Proyecto reciente en Rust que fortalece el stack de sistemas y performance, mostrando evolución hacia componentes de alto rendimiento. | Rust |
+
+---
+
+## Fortalezas técnicas
+
+- Diseño y construcción de **APIs robustas** con FastAPI y PostgreSQL
+- Implementación de **arquitecturas escalables** para productos SaaS
+- Desarrollo de **sistemas colaborativos en tiempo real** con control de concurrencia
+- Integración de **IA en flujos productivos** (no solo prototipos)
+- Gestión de despliegues con **Docker**, separación de entornos y buenas prácticas de backend
+
+---
+
+## Actividad
 
 <div align="center">
 
@@ -68,8 +79,15 @@ I build things that ship. Production backends, autonomous agents, and systems wi
 
 ---
 
+## Contacto
+
+- GitHub: [@CesarManzoCode](https://github.com/CesarManzoCode)
+- Portafolio técnico: [cesarmanzo-portafolio](https://github.com/CesarManzoCode/cesarmanzo-portafolio)
+
+---
+
 <div align="center">
 
-*The code is the resume.*
+**Código que resuelve problemas reales.**
 
 </div>
